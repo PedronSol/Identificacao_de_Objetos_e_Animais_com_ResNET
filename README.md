@@ -25,19 +25,22 @@ Este projeto aborda o problema de identificação e classificação automática 
 
 ## Como Executar o Projeto
 
-### 1. Inicializar o Ambiente Virtual
+### 1. Clonar o Repositório
+
+```bash
+git clone https://github.com/PedronSol/Identificacao_de_Objetos_e_Animais_com_ResNET.git
+
+cd Identificacao_de_Objetos_e_Animais_com_ResNET
+```
+
+### 2. Inicializar o Ambiente Virtual
 ```bash
 python3 -m venv .venv
 
 source .venv/bin/activate # No Windows venv\Source\activate
 ```
 
-### 2. Clonar o Repositório e Instalar Dependências
-
+### 3. Instalar dependências
 ```bash
-git clone [https://github.com/seu-usuario/object-animal-classification-ml.git](https://github.com/seu-usuario/object-animal-classification-ml.git)
-
-cd object-animal-classification-ml
-
 pip install -r requirements.txt
 ```
